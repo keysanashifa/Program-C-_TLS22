@@ -1,0 +1,28 @@
+//program reminder untuk anak kost seberapa borosnya kamu hari ini 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int totalPeng;
+    string hariIni;
+    
+    cout<<"Tanggal: ";
+    cin>>hariIni;
+    
+    cout<<"\nTotal Pengeluaran Hari Ini: Rp";
+    cin>>totalPeng;
+    
+    if (totalPeng<50000)
+        cout<<"\nAlhamdulillah, masih tau diri :D";
+   
+    else if (totalPeng==50000)
+        cout<<"\nbesok gausah makan kah?";
+   
+    else if (totalPeng>50000)
+        cout<<"\nTOBAAATTT!!! JANGAN SERING-SERING!!";
+
+    return 0;
+}
